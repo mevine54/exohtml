@@ -244,46 +244,206 @@
 
 
 <!--exo7-->
+<!--<body>-->
+<!--<h1>Réussir sa page HTML</h1>-->
+<!--<div class="column">-->
+<!--  <p>-->
+<!--    Le contenu visible d'une page peut-être totalement graphique, totalement texte ou un savant mélange des deux.-->
+<!--  </p>-->
+<!--  <p>-->
+<!--    <img src="img/kiss.png" alt="Baiser" class="kiss">-->
+<!--    Un fichier graphique peut-être très gros en taille, surtout si l'image est grande, complexe, très colorée, et de haute qualité, une grande quantité de texte sera a priori beaucoup plus rapide à transmettre que la moindre image. Il faut donc déjà songer à faire des compromis si l'on souhaite fournir des informations utiles.-->
+<!--  </p>-->
+<!--</div>-->
+<!--  <div class="column">-->
+<!--    <p>-->
+<!--      Bien penser à ce que vous allez mettre dans votre page, pensez à lui donner une belle forme, comme cela les gens attendront au moins la fin du chargement et commenceront la lecture. Pensez à bien équilibrer la page, posez-vous ces questions avant la construction :-->
+<!--    </p>-->
+<!--    <ul>-->
+<!--      <li>Quel sujet ?</li>-->
+<!--      <li>Quelle longueur de texte ?</li>-->
+<!--      <li>Combien d'image ?</li>-->
+<!--      <li>De quelle taille ?</li>-->
+<!--      <li>Disposées comment ?</li>-->
+<!--      <li>Combien de liens ?</li>-->
+<!--      <li>Vers où ?</li>-->
+<!--      <li>Quel style ?</li>-->
+<!--      <li>Quelle couleur ?</li>-->
+<!--    </ul>-->
+<!--  </div>-->
+<!--  <div class="column">-->
+<!--    <p>-->
+<!--      Surfez un peu avant de "penser" votre page, notez tout ce qui vous énerve chez les autres pour ne pas tomber dans le même piège, et notez aussi tout ce qui vous plaît, pour essayer de le reproduire et si possible de l'améliorer.-->
+<!--    </p>-->
+<!--    <p>-->
+<!--      Bref, n'hésitez jamais à vous mettre dans la peau d'un autre pour "penser" et tester votre travail.-->
+<!--    </p>-->
+<!--  </div>-->
+<!--</div>-->
+<!--</body>-->
+
+
+
+
+<!--exoForm1-->
+<!--<body>-->
+<!--<form method="get" action="http://www.afpa.fr">-->
+<!--  <p>-->
+<!--    Entrez votre nom......-->
+<!--    <input type="text" name="le_nom" />-->
+<!--  </p>-->
+<!--  <p>-->
+<!--    Entrez votre e-mail...-->
+<!--    <input type="text" name="email" /> &lt;!&ndash; HTML5 ? &ndash;&gt;-->
+<!--  </p>-->
+<!--  <p><i>Quel micro-ordinateur utilisez-vous ?</i></p>-->
+<!--  <ol>-->
+<!--    <li><input type="checkbox" name="micro1" value="Pc" />PC</li>-->
+<!--    <li><input type="checkbox" name="micro2" value="Mac"-->
+<!--    />Mac</li>-->
+<!--    <li><input type="checkbox" name="micro3" value="Unix" />Station-->
+<!--      Unix</li>-->
+<!--  </ol>-->
+<!--  <p><i>Média de distribution ?</i></p>-->
+<!--  <ol>-->
+<!--    <li><input type="radio" name="media" value="Cd"-->
+<!--               checked="checked" />-->
+<!--      CD-ROM</li>-->
+<!--    <li><input type="radio" name="media" value="Dk" />Disquette</li>-->
+<!--  </ol>-->
+<!--  <p><input type="submit" value="validez" /></p>-->
+<!--</form>-->
+<!--</body>-->
+
+<!--variante-->
+<!--<body>-->
+<!--<form method="get" action="http://www.afpa.fr">-->
+<!--  <p>-->
+<!--    Entrez votre nom :-->
+<!--    <input type="text" name="le_nom" placeholder="Votre nom" required />-->
+<!--  </p>-->
+<!--  <p>-->
+<!--    Entrez votre date de naissance :-->
+<!--    <input type="date" name="birthdate" required />-->
+<!--  </p>-->
+<!--  <p>-->
+<!--    Sélectionnez votre pays :-->
+<!--    <select name="country">-->
+<!--      <option value="fr">France</option>-->
+<!--      <option value="be">Belgique</option>-->
+<!--      <option value="ch">Suisse</option>-->
+<!--    </select>-->
+<!--  </p>-->
+<!--  <p>-->
+<!--    Entrez votre e-mail :-->
+<!--    <input type="email" name="email" placeholder="votreemail@example.com" required />-->
+<!--  </p>-->
+<!--  <p><i>Quel micro-ordinateur utilisez-vous ?</i></p>-->
+<!--  <ol>-->
+<!--    <li><input type="checkbox" name="micro1" value="Pc" />PC</li>-->
+<!--    <li><input type="checkbox" name="micro2" value="Mac" />Mac</li>-->
+<!--    <li><input type="checkbox" name="micro3" value="Unix" />Station Unix</li>-->
+<!--  </ol>-->
+<!--  <p><i>Média de distribution ?</i></p>-->
+<!--  <ol>-->
+<!--    <li><input type="radio" name="media" value="Cd" checked="checked" />CD-ROM</li>-->
+<!--    <li><input type="radio" name="media" value="Dk" />Disquette</li>-->
+<!--  </ol>-->
+<!--  <p>-->
+<!--    Vos commentaires :-->
+<!--    <textarea name="comments" rows="4" cols="40" placeholder="Écrivez ici..."></textarea>-->
+<!--  </p>-->
+<!--  <p>-->
+<!--    <input type="submit" value="Validez" />-->
+<!--  </p>-->
+<!--</form>-->
+<!--</body>-->
+
+
+<!--Balise / Attribut	Signification-->
+<!--<html>	La balise racine qui définit un document HTML.-->
+<!--<head>	Contient des métadonnées sur le document (titre, liens vers des styles, etc.).-->
+<!--  <title>	Définit le titre de la page qui apparaît dans l'onglet du navigateur.-->
+<!--    <body>	Contient le contenu visible de la page web.-->
+<!--    <form>	Définit un formulaire qui collecte des données utilisateur.-->
+<!--    method="get"	Spécifie que les données du formulaire seront envoyées dans l'URL (par exemple, ?param=value).-->
+<!--    action="http://www.afpa.fr"	Définit l'URL où les données du formulaire seront envoyées.-->
+<!--    <p>	Définit un paragraphe.-->
+<!--    <input>	Permet d'insérer différents types de champs dans le formulaire (texte, bouton, etc.).-->
+<!--    type="text"	Définit un champ de saisie de texte.-->
+<!--    name="..."	Attribut utilisé pour nommer une entrée, essentiel pour récupérer ses données.-->
+<!--    type="checkbox"	Définit une case à cocher permettant une sélection multiple.-->
+<!--    value="..."	La valeur envoyée au serveur si l'option est sélectionnée.-->
+<!--    type="radio"	Définit un bouton radio permettant une sélection unique.-->
+<!--    checked="checked"	Spécifie qu'une option est sélectionnée par défaut.-->
+<!--    type="submit"	Définit un bouton pour envoyer les données du formulaire.-->
+<!--    <ol>	Crée une liste ordonnée (numérotée).-->
+<!--    <li>	Définit un élément dans une liste.-->
+<!--    <i>	Affiche le texte en italique.-->
+
+
+<!--exoForm2-->
 <body>
-<h1>Réussir sa page HTML</h1>
-<table>
-  <tr>
-    <td class="left-column">
-      <p>La création visuelle d'une page professionnelle nécessite généralement l'intervention de plusieurs personnes :</p>
-      <ul>
-        <li>Un rédacteur graphique</li>
-        <li>Un maquettiste</li>
-        <li>Un infographiste</li>
-        <li>Un webmaster</li>
-      </ul>
-      <p>Un fichier graphique anti-crise est un fichier qui, par nature, est "prêt à l'emploi", c'est-à-dire qu'il est déjà optimisé, et de haute qualité. Ce type de fichier est généralement fourni à l'infographiste par le client.</p>
-      <p>Il faut donc définir un concept et une charte graphique, et faire converger les informations utiles.</p>
-      <img src="img/KISS.GIF" alt="Image décorative">
-    </td>
-    <td class="center-column">
-      <!-- Colonne centrale vide pour l'image -->
-    </td>
-    <td class="right-column">
-      <p>Bien penser à ce que vous voulez dire avant de vous lancer dans la création de votre page, prenez le temps de bien structurer vos idées. Un site internet se perçoit en quelques secondes, il est donc primordial de le penser avant de le réaliser.</p>
-      <p>L'ergonomie est la clé de la réussite de votre site. Elle permet à vos visiteurs de naviguer facilement et de trouver l'information qu'ils recherchent.</p>
-      <p>Voici quelques conseils pour réussir votre page :</p>
-      <ul>
-        <li>Ce qu'apporte votre site</li>
-        <li>Qui vous êtes</li>
-        <li>Ce que vous proposez</li>
-        <li>De profil</li>
-        <li>Disponibilités</li>
-        <li>Tarifs</li>
-        <li>Conditions de vente</li>
-        <li>Témoignages</li>
-        <li>Questions fréquentes</li>
-        <li>Contact</li>
-      </ul>
-      <p>Professionnels, pensez à une version de votre site "mobile friendly" pour les visiteurs qui utilisent leur smartphone.</p>
-    </td>
-  </tr>
-</table>
+<h1>Nous lançons une grande enquête sur les anciens stagiaires</h1>
+<p>Merci de nous répondre</p>
+
+<form action="page10.htm" method="GET">
+  <label for="nom">Votre nom</label><br>
+  <input type="text" id="nom" name="nom"><br><br>
+
+  <label for="prenom">Votre prénom</label><br>
+  <input type="text" id="prenom" name="prenom"><br><br>
+
+  <label for="date_naissance">Votre date de naissance</label><br>
+  <input type="date" id="date_naissance" name="date_naissance"><br><br>
+
+  <label for="adresse">Votre adresse</label><br>
+  <input type="text" id="adresse" name="adresse"><br><br>
+
+  <label for="ville">Votre ville</label><br>
+  <input type="text" id="ville" name="ville"><br><br>
+
+  <label for="code_postal">Votre code postal</label><br>
+  <input type="text" id="code_postal" name="code_postal"><br><br>
+
+  <label for="email">Votre E-mail</label><br>
+  <input type="email" id="email" name="email"><br><br>
+
+  <label>Vous êtes un homme</label>
+  <input type="radio" id="homme" name="sexe" value="homme">
+  <label>Vous êtes une femme</label>
+  <input type="radio" id="femme" name="sexe" value="femme"><br><br>
+
+  <label for="profession">Votre profession</label><br>
+  <select id="profession" name="profession">
+    <option value="Développeur">Développeur</option>
+    <option value="Analyste">Analyste</option>
+    <option value="Chef de projet">Chef de projet</option>
+    <option value="Autre">Autre</option>
+  </select><br><br>
+
+  <label for="salaire">Si vous avez répondu autre, précisez</label><br>
+  <select id="salaire" name="salaire">
+    <option value="< 1000 €">&lt; 1000 €</option>
+    <option value="1000 € et < 1500 €">1000 € et &lt; 1500 €</option>
+    <option value="1500 € et < 2000 €">1500 € et &lt; 2000 €</option>
+    <option value="> 2000 €">&gt; 2000 €</option>
+  </select><br><br>
+
+  <label for="annee_stage">En quelle année avez-vous suivi le stage AFFA</label><br>
+  <input type="text" id="annee_stage" name="annee_stage"><br><br>
+
+  <label for="commentaires">Vos commentaires</label><br>
+  <textarea id="commentaires" name="commentaires" rows="4" cols="50"></textarea><br><br>
+
+  <input type="submit" value="Valider">
+  <input type="reset" value="Annuler">
+</form>
+
+<p>Merci d'avoir répondu au questionnaire</p>
 </body>
 
-
 </html>
+
+
+
