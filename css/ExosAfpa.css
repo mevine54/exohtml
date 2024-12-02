@@ -1,0 +1,237 @@
+/*exo1*/
+/*body {*/
+/*  background-image: url('/img/afpa.gif');*/
+/*  background-size: 150px 150px;*/
+/*  background-repeat: repeat;*/
+/*  color: black;*/
+/*  font-family: Arial, sans-serif;*/
+/*  margin: 0;*/
+/*  padding: 0;*/
+/*  display: flex;*/
+/*  flex-direction: column;*/
+/*  align-items: center;*/
+/*  justify-content: center;*/
+/*  height: 100vh;*/
+/*}*/
+
+/*.container {*/
+/*  position: relative;*/
+/*  width: 100%;*/
+/*  height: 100%;*/
+/*}*/
+
+/*.welcome {*/
+/*  position: absolute;*/
+/*  top: 40%;*/
+/*  left: 50%;*/
+/*  transform: translate(-50%, -50%);*/
+/*  text-align: center;*/
+/*  padding: 10px 20px;*/
+/*  border-radius: 10px;*/
+/*}*/
+
+/*.web-developers {*/
+/*  position: absolute;*/
+/*  font-size: 24px;*/
+/*  top: 67%;*/
+/*  left: 50%;*/
+/*  transform: translate(-50%, -50%);*/
+/*  text-align: center;*/
+/*  padding: 10px 20px;*/
+/*  border-radius: 10px;*/
+/*}*/
+
+/*.web-developers p {*/
+/*  margin: 0;*/
+/*  font-weight: bold;*/
+/*}*/
+
+/*.info {*/
+/*  position: absolute;*/
+/*  top: 83%;*/
+/*  left: 50%;*/
+/*  transform: translate(-100%, -50%);*/
+/*  text-align: left;*/
+/*  padding: 10px 20px;*/
+/*  border-radius: 10px;*/
+/*}*/
+
+/*.info p {*/
+/*  margin: 0;*/
+/*}*/
+
+/*exo2*/
+/*body {*/
+/*  font-family: Arial, sans-serif;*/
+/*  margin: 0;*/
+/*  padding: 20px;*/
+/*  background-color: #f9f9f9;*/
+/*}*/
+
+/*.container {*/
+/*  max-width: 800px;*/
+/*  margin: 0 auto;*/
+/*  background-color: white;*/
+/*  padding: 20px;*/
+/*  border: 1px solid #ddd;*/
+/*  border-radius: 5px;*/
+/*  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);*/
+/*}*/
+
+/*h2 {*/
+/*  border-bottom: 2px solid #000;*/
+/*  padding-bottom: 10px;*/
+/*  margin-top: 20px;*/
+/*}*/
+
+/*ol, ul {*/
+/*  padding-left: 20px;*/
+/*}*/
+
+/*dl {*/
+/*  padding-left: 20px;*/
+/*}*/
+
+/*dt {*/
+/*  font-weight: bold;*/
+/*  margin-top: 10px;*/
+/*}*/
+
+/*dd {*/
+/*  margin-bottom: 10px;*/
+/*}*/
+
+
+/*exo3*/
+/*body {*/
+/*  font-family: Arial, sans-serif;*/
+/*  margin: 0;*/
+/*  padding: 20px;*/
+/*  background-color: #f9f9f9;*/
+/*}*/
+
+/*.container {*/
+/*  max-width: 800px;*/
+/*  margin: 0 auto;*/
+/*  background-color: white;*/
+/*  padding: 20px;*/
+/*  border: 1px solid #ddd;*/
+/*  border-radius: 5px;*/
+/*  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);*/
+/*}*/
+
+/*section {*/
+/*  margin-bottom: 40px;*/
+/*  height: 350px;*/
+/*}*/
+
+/*h2 {*/
+/*  border-bottom: 2px solid #000;*/
+/*  padding-bottom: 10px;*/
+/*  margin-top: 20px;*/
+/*}*/
+
+/*img {*/
+/*  display: block;*/
+/*  margin: 20px 0;*/
+/*  max-width: 100%;*/
+/*  height: auto;*/
+/*  border: 1px solid #ddd;*/
+/*  border-radius: 5px;*/
+/*  float: left; !* Aligner les images à gauche *!*/
+/*  clear: both; !* Éviter les superpositions *!*/
+/*}*/
+
+/*section img {*/
+/*  width: 200px; !* Ajustez la largeur de l'image selon vos besoins *!*/
+/*  height: auto;*/
+/*}*/
+
+
+/*exo4*/
+/*body {*/
+/*  font-family: Arial, sans-serif;*/
+/*  margin: 20px;*/
+/*}*/
+/*h1 {*/
+/*  color: #333;*/
+/*}*/
+/*h2 {*/
+/*  color: #555;*/
+/*  margin-top: 20px;*/
+/*}*/
+/*p {*/
+/*  line-height: 1.6;*/
+/*}*/
+/*a {*/
+/*  color: purple;*/
+/*  text-decoration: none;*/
+/*}*/
+/*a:hover {*/
+/*  text-decoration: underline;*/
+/*}*/
+/*img {*/
+/*  width: 100px; !* Ajustez la taille de l'image selon vos besoins *!*/
+/*}*/
+
+
+/*exo5*/
+/*body {*/
+/*  font-family: Arial, sans-serif;*/
+/*  margin: 20px;*/
+/*}*/
+/*h1 {*/
+/*  color: #333;*/
+/*}*/
+/*h2 {*/
+/*  color: #555;*/
+/*  margin-top: 20px;*/
+/*}*/
+/*.video-container {*/
+/*  margin-bottom: 20px;*/
+/*}*/
+/*video {*/
+/*  width: 100%;*/
+/*  max-width: 600px;*/
+/*}*/
+
+
+/*exo7*/
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f9f9f9;
+}
+h1 {
+  text-align: center;
+  color: #333;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+td {
+  vertical-align: top;
+  padding: 10px;
+}
+.left-column {
+  width: 25%;
+}
+.center-column {
+  width: 10%;
+  text-align: center;
+}
+.right-column {
+  width: 65%;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+ul li {
+  margin-bottom: 5px;
+}
